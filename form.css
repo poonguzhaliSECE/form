@@ -1,0 +1,78 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Arial', sans-serif;
+    background: linear-gradient(rgb(103, 103, 157), #e3f2fd, #90caf9);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    padding: 10px;
+}
+form {
+    background: #ffffff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px 30px;
+    max-width: 600px;
+    width: 100%;
+}
+fieldset {
+    border: 1px solid #000000;
+    padding: 20px;
+}
+legend {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #000000;
+    padding: 0 10px;
+}
+label {
+    display: block;
+    font-weight: 600;
+    margin-bottom: 8px;
+    color: #000000;
+}
+input,
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #000000;
+    font-size: 0.9rem;
+    outline: none;
+}
+
+input[type="radio"],
+input[type="checkbox"]
+ {
+    width: auto;
+    margin-right: 8px;
+}
+button {
+    width: 25%;
+    padding: 10px;
+    font-size: 1rem;
+    font-weight: bold;
+    color: #fff;
+    background-color: #007bff;
+    border: none;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+input[type="file"],
+input[type="color"] {
+    padding: 5px;
+    border: none;
+    background: #f4f4f4;
+}
+
+
+
